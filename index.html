@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>U&J Electric Service</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"       integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+    <div class="logo">U&J Electric</div>
+    <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact-form-section">Contact</a></li>
+        <li>
+            <button id="theme-toggle">
+                <i id="theme-icon" class="fas fa-moon"></i> 
+                <span id="theme-text">Dark Mode</span>
+            </button>
+        </li>
+    </ul>
+</nav>
+
+    <header class="hero">
+        <h1>U&J Electric Service LLC</h1>
+        <p>Reliable Residential & Commercial Electrical Solutions</p>
+    <a href="#contact-form-section" class="btn">
+        <i class="fas fa-phone-alt phone-icon"></i> Get a Free Estimate
+    </a>
+    </header>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+            <div class="card">⚡ Panel Upgrades</div>
+            <div class="card">💡 Lighting Installation</div>
+            <div class="card">🏠 Residential Wiring</div>
+            <div class="card">🏗️ Commercial Projects</div>
+            <div class="card">🚗 Ev Charger Installation</div>
+            <div class="card">🛠️ Electrical Renovations, and more!</div>
+        </div>
+    </section>
+
+<!-- CONTACT FORM SECTION -->
+<section id="contact-form-section">
+    <div class="container">
+        <h2>Get a Free Estimate</h2>
+        <p>Ready to start your project? Fill out the form below!</p>
+        
+<form id="estimate-form" action="https://formbold.com/s/9xmKZ" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="text" name="contact" placeholder="Email or Phone Number" required>
+    <textarea name="message" placeholder="Describe your project..." required></textarea>
+    
+    <button type="submit" id="submit-btn" class="btn">
+        <i class="fas fa-paper-plane"></i> Send Request
+    </button>
+</form>
+
+<div id="success-message" style="display: none; margin-top: 20px; color: #2ecc71; font-weight: bold;">
+    <i class="fas fa-check-circle"></i> Request Sent! We will contact you soon 🛫.
+</div>
+
+</section>
+
+    <footer id="contact">
+        <h2>Contact U&J Electric Service LLC</h2>
+        <p>Ready to start your project? Reach out to us today!</p>
+        
+        <div class="contact-info">
+            <p><strong>📞 Phone:</strong> 
+                <a href="tel:512-299-6611">512-299-6611</a>
+            </p>
+            <p><strong>✉️ Email:</strong> 
+                <a href="mailto:umeshdarai@yahoo.com">umeshdarai@yahoo.com</a>
+            </p>
+        </div>
+        <p style="margin-top: 10px; font-size: 0.8rem; opacity: 0.7;">© 2024 U&J Electric Service LLC. All Rights Reserved.</p>
+    </footer>
+
+    <!-- The Back to Top button is fine here at the end -->
+    <button id="back-to-top" title="Go to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
